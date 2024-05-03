@@ -1,44 +1,58 @@
-body{
-    background-color: white;
-}
+ body{
+    margin: 0%;
+    padding: 0%;
+} 
 
 .logo{
-    color: blue;
+    color: rgb(17,67,136);
     box-shadow: darkgray;
     margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif
+    
     
 }
 
 .logo2{
+    box-shadow: 10px rgb(55, 55, 55);
+color: rgb(240, 189, 18);
 margin-left: 5%;
-margin-top: -47px;
+margin-top: -49px;
+font-family: 'Times New Roman', Times, serif;
+
 
 }
 
+.act a{
+    text-decoration: none;
+}
+
 .me{
+    list-style: none;
     display: flex;
-    justify-content: space-between;
+     justify-content: space-between;
     padding-right: 60%;
     margin-left: 15%;
     margin-top: -45px;
 }
 
-.me li{
-
+.me a{
     text-decoration: none;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    color: black;
 
 }
 .btn{
     height: 30px;
-    width: 70px;
+    width: 90px;
     font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
-    background-color: blue;
-    border-color: blue;
+    background-color:  rgb(17,67,136);
+    border-color: rgb(17,67,136);
     float: right;
     margin-top: -45px;
+    border-radius: 20px;
 }
 
 .main{
@@ -48,10 +62,10 @@ margin-top: -47px;
     text-align: center;
     margin-top: 50px;
     font-size: xx-large;
-    background-image: url(/table.jpg);
+    background-image: url(/images/ChickenRepublic_FoodPagesBanner-scaled.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 500px;
+    height: 300px;
     padding: 200px 0 0 50px;
 }
 
@@ -60,35 +74,198 @@ margin-top: -47px;
 
 }
 #Recipes{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 #Carne{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-left: 300px;
     margin-top: -130px;
 
 }
 
+.head5{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #img{
-    height: 120px;
+    height: 170px;
     width: 300px;
 }
 
 #Greek{
-    margin-left: 750px;
-    margin-top: -225px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 740px;
+    margin-top: -300px;
+    border-radius: 10%;
 }
 
 #Vegetable{
+    font-family: 'Times New Roman', Times, serif;
     margin-left: 1155px;
-    margin-top: -225px;
+    margin-top: -300px;
 }
 .foot{
     display: flex;
-    background-color: gray;
+    background-color: none;
     text-align: center;
-    margin: left 1000px;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: white;
+    margin-top: 150px;
+    color:  rgb(17,67,136);
+    
 }
+
+.search{
+    margin-left: 600px;
+    margin-top: 40px;
+    height: 30px;
+    border-radius: 10px;
+    border: thin solid  rgb(17,67,136);
+    background-color: rgba(128, 128, 128, 0.26);
+}
+
+
+ .btn1{
+    height: 35px;
+    background-color: rgb(17,67,136);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+ .act:hover
+ {
+    font-size: x-large;
+    
+ }
+
+
+
+ #recipe{
+    
+    height: 30px;
+    width: 150px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(17,67,136);
+    border-color: rgb(17,67,136);
+    float: right;
+    margin-right: 70px;
+    margin-top: -45px;
+    
+ }
+
+
+
+ #submit
+ {
+    float: right;
+    margin-top: -63px;
+    height: 30px;
+    width: 60px;
+    color:  white;
+    background-color:  rgb(17,67,136);
+    border-color:  rgb(17,67,136);
+    border-style: thin  rgb(17,67,136)
+ }
+
+
+
+ #img1
+ {
+    
+    height: 190px;
+    width: 300px;
+}
+
+.new{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px
+}
+
+.btn2{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    width: 90px;
+    background-color: rgb(17,67,136);
+    border: thick yellow;
+    font-size: bold;
+    color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.btn2:hover{
+    background-color: burlywood;
+    transform: translateY(-10px);
+}
+
+.list2{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0 260px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.table-foot{
+    list-style: none;
+    padding: 0 260px;
+    text-align: center;
+    margin: 0 20px 0 20px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.more-detail{
+    display: flex;
+    justify-content: space-between;
+    background-color: ;
+    text-align: center;
+    padding: 30px;
+    font-size: 13px;
+    color: rgba(17, 67, 136, 0.923);
+    border-radius: 20px;
+    padding: 0 70px;
+    margin-top: 70px;
+}
+
+.btn-App{
+    height: 60px;
+    width: 140px;
+    background-color: rgb(17,67,136);
+    color: white;
+    border-radius: 20px;
+    
+}
+.btn-Play{
+    height: 60px;
+    width: 140px;
+    background-color: rgb(17,67,136);
+    color: white;
+    border-radius: 20px;
+}
+
+.cat{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(17,67,136);;
+
+    }
